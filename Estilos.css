@@ -23,6 +23,7 @@ img{
 
 .inicio{
     background-image: url(Fondo.jpg);
+    margin: 0;
     background-position: center center;
     background-size: cover;
     height: 100vh;
@@ -47,7 +48,9 @@ img{
 }
 
 .navegacion a{
-    color: #080000;
+    font-family: 'Courier New', Courier, monospace;
+    font:bold;
+    color: #dbeaeb;
     font: bold;
     text-decoration: none;
     font-size: 2.2rem; 
