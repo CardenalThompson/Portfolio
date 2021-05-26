@@ -5,6 +5,11 @@
     margin: auto;
 }
 
+.cuerpo{
+    background-image: url("Fondo.jpg");
+    background-size: cover;
+}
+
 .bordeCircular{
     border-radius: 50%;
     width: 200px;
@@ -17,12 +22,10 @@ img{
 
 /* Herader */
 .site-header{
-    background-color: rgb(4, 102, 69);
     padding: 1rem 0 3rem 0;
 }
 
 .inicio{
-    background-image: url(Fondo.jpg);
     margin: 0;
     background-position: center center;
     background-size: cover;
