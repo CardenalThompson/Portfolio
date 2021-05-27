@@ -86,7 +86,7 @@ section{
 }
 
 #sobreMi{
-    min-height: 30em;
+	min-height: 30em;
     background-color:rgb(117, 117, 115);
     background-image: repeating-radial-gradient( rgb(117, 117, 115), rgb(46, 46, 46));
     margin-left: auto;
@@ -94,10 +94,11 @@ section{
 }
 
 #proyectos{
-    background-color: rgb(238, 255, 0);
+	background-color: rgb(238, 255, 0);
 }
 
 #contactar{
+	min-height: 5em;
     background-color: rgb(61, 58, 100);
     
 }
