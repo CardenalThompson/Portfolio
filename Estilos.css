@@ -25,7 +25,10 @@ a:hover{
 	padding: 1.15rem 1rem;
 	background-color: #888;
 	background-image: url(Fondo1.jpg);
-	background-size: cover;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .navbar-header {
@@ -91,18 +94,20 @@ section{
 }
 
 #proyectos{
-    background-color: rgb(139, 70, 70);
+    background-color: rgb(238, 255, 0);
 }
 
 #contactar{
-    background-color: rgb(51, 45, 143);
+    background-color: rgb(61, 58, 100);
+    
 }
 
 .descripcion{
     /* background-color: rgb(255, 252, 208); */
     height: 400px;
-    width: 700px;
+    width: 600px;
     justify-content: center;
+    margin: 1cm;
     /* align-items: center; */
 }
 
