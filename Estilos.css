@@ -70,6 +70,7 @@ a:hover{
 }
 
 .bordeCircular {
+	border-style: solid;
 	border-radius: 50%;
 	width: 100px;
 	height: 100px;
@@ -94,18 +95,33 @@ section{
 }
 
 #proyectos{
+	min-height: 30em;
 	background-color: rgb(238, 255, 0);
 }
 
+#proyectos h1{
+	padding: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 48;
+	color: rgb(56, 54, 54);
+}
+
+#proyectos h3{
+	padding: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 48;
+	color: rgb(56, 54, 54);
+}
+
 #contactar{
+	align-items: center;
 	min-height: 5em;
-    background-color: rgb(61, 58, 100);
-    
+    background-color: rgb(61, 58, 100); 
 }
 
 .descripcion{
     /* background-color: rgb(255, 252, 208); */
-    height: 400px;
+	height: 400px;
     width: 600px;
     justify-content: center;
     margin: 1cm;
@@ -132,4 +148,8 @@ section{
     color: whitesmoke;
     text-align: left;
     
+}
+
+.linkeo{
+	padding-left: 51rem;
 }
